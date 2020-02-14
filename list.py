@@ -1,3 +1,8 @@
-t=(2,4,5,6,7,8)
-out=t[0:3]
-print(out)
+t=[1,2,4,(1,),4]
+c=0
+for i in t:
+  if type(i)!=tuple:
+     c+=1
+  else:
+        break
+print(c)
